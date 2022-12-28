@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.btn{
+    background-color:rgb(240, 17, 139);
+    padding: 10px 20px;
+}
+@media (max-width: 480px) {
+    .btn{
+        padding: 7px 15px;
+    }
+}
+
+
+/*navbar*/
+.navbar,.home{
+    background-image: url("img/home1.png.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: transparent;
+}
+.border-black{
+    border: 3px;
+}
+.home .call-row{
+    margin-left:37%;
+}
+@media (max-width: 480px) {
+    .home .call-row{
+        margin-left:33%;
+    }
+}
+.home-text{
+    margin-top: 15%;
+}
+.home-text .call .btn{
+    margin-left: 150px;
+}
+.home .card{
+    height: 90%;
+    width: 100%;
+}
+section{
+    padding:50px;
+}
+/*about*/
+.vl {
+    border-left: 2px solid gray;
+    height: 90px;
+}
+@media (max-width: 480px){
+    .vl {
+        height: 90px;
+    }
+}
+@media (max-width: 600px){
+    .vl {
+        height: 90px;
+    }
+}
+
+
+
+.about .img-thumbnail{
+    border-radius: 50%;
+    border: 5px solid rgba(255, 0, 0, 0.678) ;
+    background: transparent;
+    padding:50px 65px;
+}
+
+/*team*/
+@media (max-width: 600px){
+.team h4{
+    font-size: 15px;
+}
+}
+@media (max-width: 480px){
+    .team h4{
+        font-size: 10px;
+    }
+    .team h1{
+        font-size: 7px;
+    }
+}
+/*portfolio*/
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 13px;
+    right: 10px;
+    background-color:rgba(230, 15, 129, 0.849);
+    overflow: hidden;
+    width:94%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .img:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .portfolio .img-thumbnail{
+    border-radius: 50%;
+    border: 3px solid white;
+    background: transparent;
+    padding:10px 15px;
+}
+.portfolio .thumb-row{
+    margin-left: 40%;
+}
+@media (max-width: 600px){
+    .portfolio .thumb-row{
+        margin-left:40% ;
+    }
+}
+@media (max-width: 480px){
+    .portfolio .thumb-row{
+        margin-left:30% ;
+    }
+}
+
+/*tetmonial*/
+ .test{
+    margin-left:-55px;
+    margin-bottom: 30px;
+    width: 80px;
+    z-index:1 ;
+}
+.img-thumbnail{
+    border-radius: 50%;
+    border: 5px solid rgba(255, 0, 0, 0.678) ;
+    background: transparent;
+    padding:50px 50px;
+    width: 5%;
+}
+/*contact*/
+
+.contact .btn{
+    padding: 10px 220px;
+    background-color: rgba(255, 0, 0, 0.678) ;
+}
+@media (max-width: 480px){
+    .contact .btn{
+        padding: 10px 30px;
+    }
+}
+@media (max-width: 600px){
+    .contact .btn{
+        padding: 10px 120px;
+    }
+}
+
+
+
+  
+
